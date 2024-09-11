@@ -24,7 +24,7 @@ if exist "%output_file%" (
 )
 
 REM First part: Encode to HEVC format
-ffmpeg -init_hw_device qsv=hw -filter_hw_device hw -i "%input_file%" -c:v hevc_qsv -preset slow -global_quality 22 -movflags +faststart "%output_file%"
+ffmpeg -init_hw_device qsv=hw -filter_hw_device hw -i "%input_file%" -c:v hevc_qsv -preset slow -movflags +faststart "%output_file%"
 if errorlevel 1 (
    echo First part processing failed
    goto :eof
