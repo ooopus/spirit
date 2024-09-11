@@ -41,7 +41,7 @@ if %block_number% gtr 1 (
    exit /b 1
 )
 
-REM Second part: Split the file
+REM Split the file
 ffmpeg -i "%original_file%" -c copy -map 0 -segment_time %segment_duration% -f segment -reset_timestamps 1 -movflags +faststart "%output_filename%_%%03d.mp4"
 
 if errorlevel 1 (
