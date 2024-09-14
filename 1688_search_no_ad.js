@@ -1,3 +1,12 @@
+// ==UserScript==
+// @name         1688屏蔽搜索广告
+// @version      0.1
+// @description  删除1688广告商品，在原位留下空白
+// @match        https://s.1688.com/selloffer/*
+// @license      GPLv3 
+// @namespace https://greasyfork.org/users/1367202
+// ==/UserScript==
+
 (function () {
     const hostname = window.location.hostname;
     if (hostname === 's.1688.com') {
