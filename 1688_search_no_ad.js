@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         1688屏蔽搜索广告
-// @version      0.1
+// @version      0.11
 // @description  删除1688广告商品，在原位留下空白
 // @match        https://s.1688.com/selloffer/*
 // @license      GPL-3.0+
