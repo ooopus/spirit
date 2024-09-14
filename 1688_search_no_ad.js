@@ -1,4 +1,4 @@
-(function() {
+(function () {
     const hostname = window.location.hostname;
     if (hostname === 's.1688.com') {
         process();
@@ -20,7 +20,7 @@
                 }
             });
             // 一次性移除所有收集到的广告父元素
-            offersToRemove.forEach(offer => offer.parentNode.removeChild(offer));
+            offersToRemove.forEach(offer => offer.remove());
         }
     }
 })();
