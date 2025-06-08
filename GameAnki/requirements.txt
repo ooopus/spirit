@@ -1,0 +1,10 @@
+pywin32
+pillow
+pillow-avif-plugin
+requests
+windows-capture
+pyaudiowpatch
+av
+numpy
+pynput
+toml

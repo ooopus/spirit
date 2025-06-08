@@ -1,0 +1,4 @@
+pyaudiowpatch
+av
+requests
+numpy

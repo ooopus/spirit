@@ -1,0 +1,6 @@
+[HotKey]
+ScreenShot = "keyboard.Key.caps_lock" # 更多按键参见 https://pynput.readthedocs.io/en/latest/keyboard.html#pynput.keyboard.Key
+AudioRecord = "keyboard.Key.tab"
+
+[Quality]
+ScreenShot = 50 # 0-100, 0为最差，100为最好 
